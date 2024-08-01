@@ -1,0 +1,112 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sr{
+    color: red;
+}
+.container1{
+    background-color: rgb(255, 248, 238);
+    border: 5px solid  rgb(114, 23, 23);
+    margin: 2% 5%;
+    padding-bottom: 50px;
+}
+.head{
+    display: inline;
+}
+.image{
+    float: right;
+    position: relative;
+    margin-top: -30px;
+    margin-right: 1%;
+}
+.srno{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.img{
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+}
+
+.h1{
+    color: rgb(114, 23, 23);
+}
+.h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #b36319;
+}
+.p{
+    font-size: 17px;
+    text-align: center;
+    margin: 0px 26%;
+}
+.row{
+    margin: 0 2%;
+    text-align: center;
+    border: 1px solid;
+}
+.col{
+    border: 1px solid;
+    padding:10px 5px;
+}
+.row1{
+    margin: 0 2%;
+    text-align: center;
+}
+
+/* .marks-table{
+    margin-bottom: 20px;
+} */
+/* .marks-table label{
+    display: block;
+    margin-bottom: 5px;
+} */
+.marks-table input{
+    width: 130px;
+    margin: 10px;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    /* border: 3px solid;
+    border-radius: 5px; */
+}
+.marks-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.marks-table th,
+.marks-table td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid;
+
+}
+
+#theory-marks,#practical-marks{
+    border: none;
+    background-color: rgb(255, 248, 238);
+
+}
+#result,#percentage,#grade{
+    border: none;
+    background-color: rgb(255, 248, 238);
+}
+
+.date{
+    margin-left: 2%;
+    float: left;
+}
+.Signature{
+    float: right;
+    margin-right: 2%;
+}
+footer{
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+    color:rgb(114, 23, 23)
+}
